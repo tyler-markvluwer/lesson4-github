@@ -4,6 +4,8 @@ Use Github well. I will not go into detail because these things are already well
 Wow this seems so meta, using github to talk about github...
 
 ## What you should know
+### Conflicts
+You should know what merge conflicts are and be able to resolve them. This should be true for all members of the team. If one member is spending all of their time maintaining the git repo, then they are unable to develop.
 ### API keys
 Don't push code that has API keys in them. If the repos are public, then people will steal these keys and 'farm them out' for their own use and spam. Instead import API keys into the necessary modules, and keep your KEY files in the gitignore so that they are not pushed to master.
 ### Branches
